@@ -1,0 +1,164 @@
+:root {
+  --dark-red: #cc0000;
+  --light-red: #ed1b2e;
+  --dard-blue: #2c70a0;
+  --light-blue: #28abc9;
+  --cyan: #00ccff;
+  --blue-green: #187793;
+  --white-like: #3eaed5;
+  --black: #000a33;
+  --violet: #984b84;
+  --yellow: #f6a732;
+}
+
+#second-segment {
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(0, 204, 255, 1) 74%,
+    rgba(76, 210, 244, 1) 100%
+  );
+}
+
+#second-segment ul {
+  height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-block: 1.5rem;
+}
+
+#second-segment ul li {
+  max-width: 68ch;
+  margin: auto;
+  text-align: center;
+  font-family: 'Open Sans Variable Font', sans-serif;
+  font-size: 1.6rem;
+  color: rgb(14, 14, 97);
+  font-weight: 600;
+}
+
+#second-segment ul li:nth-child(1) {
+  max-width: 57ch;
+}
+
+#second-segment ul li:nth-child(4) {
+  font-weight: 900;
+  max-width: 41ch;
+  font-size: 2rem;
+}
+
+#second-segment ul li button {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  background-color: transparent;
+  color: white;
+  border: solid 3px white;
+  border-radius: 0.75em;
+  padding: 1em 1.75em;
+}
+
+#third-segment {
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 4em;
+  align-items: center;
+  padding: 5em 0 3em 0;
+}
+
+.third-image {
+  width: 45%;
+}
+
+.third-image img {
+  max-width: 100%;
+}
+
+.third-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 50%;
+  font-family: 'Open Sans Variable Font', sans-serif;
+  font-size: 1.6rem;
+  color: var(--dark-red);
+  font-weight: 600;
+  gap: 2.5em;
+}
+
+.just-text {
+  max-width: 28ch;
+  font-weight: 900;
+}
+
+.third-text button {
+  background-color: transparent;
+  border: none;
+}
+
+.third-text button a {
+  max-width: fit-content;
+  font-size: 1.2rem;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  background-color: transparent;
+  color: var(--cyan);
+  border: solid 3px var(--cyan);
+  border-radius: 0.75em;
+  padding: 0.9em 1.85em;
+}
+#fourth-segment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  background-color: rgb(206, 244, 255);
+  padding: 5em 0;
+}
+
+#fourth-segment img {
+  max-width: 70%;
+}
+
+#fourth-segment button a {
+  color: var(--dark-red);
+}
+
+#fourth-segment button {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  line-height: 1.25;
+  background-color: transparent;
+  border: solid 3px var(--dark-red);
+  border-radius: 0.75em;
+  padding: 0.8em 1.5em;
+}
+
+.rest-videos {
+  max-width: 48%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+}
+
+.rest-videos img {
+  max-width: 10%;
+}
+.opened {
+  width: 360px;
+}
+.my-honda-text h1 {
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+}

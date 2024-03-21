@@ -1,0 +1,73 @@
+:root {
+  --dark-red: #cc0000;
+  --light-red: #ed1b2e;
+  --dard-blue: #2c70a0;
+  --light-blue: #28abc9;
+  --cyan: #00ccff;
+  --blue-green: #187793;
+  --white-like: #3eaed5;
+  --black: #000a33;
+  --violet: #984b84;
+  --yellow: #f6a732;
+}
+.opened {
+  width: 150px;
+  background-size: cover;
+}
+.opened a {
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+}
+.all-questions {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+.all-questions li:nth-child(2) .full-qna,
+.all-questions li:nth-child(6) .full-qna,
+.all-questions li:nth-child(9) .full-qna {
+  background-color: rgb(234, 211, 202);
+}
+
+.all-questions li:nth-child(1) .full-qna,
+.all-questions li:nth-child(5) .full-qna,
+.all-questions li:nth-child(8) .full-qna {
+  background-color: rgb(215, 231, 237);
+}
+
+.all-questions li:nth-child(3) .full-qna,
+.all-questions li:nth-child(7) .full-qna {
+  background-color: rgb(236, 218, 193);
+}
+
+.all-questions li:nth-child(4) .full-qna {
+  background-color: rgb(243, 224, 238);
+}
+
+.question {
+  text-align: center;
+  padding: 0.5rem 0;
+  min-height: 3rem;
+}
+.question:hover {
+  cursor: pointer;
+}
+.answer {
+  display: grid;
+  text-align: center;
+  grid-template-rows: 0fr;
+
+  transition: grid-template-rows 0.5s linear;
+}
+.answer section {
+  overflow: hidden;
+  color: var(--black);
+}
+
+.active-ans .answer {
+  grid-template-rows: 1fr;
+  overflow: visible;
+  color: white;
+  background-color: inherit;
+}

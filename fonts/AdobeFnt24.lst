@@ -1,0 +1,66 @@
+%!Adobe-FontList 1.24
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/candicebutterfield/Desktop/FINAL DRAFT/Document fonts/AdobeFnt24.lst
+FileLength:1457
+FileModTime:732225458
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Gotham-UltraItalic
+FamilyName:Gotham Ultra
+StyleName:Italic
+MenuName:Gotham Ultra
+StyleBits:1
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Gotham-UltraItalic
+WritingScript:Roman
+OutlineFileName:/Users/candicebutterfield/Desktop/FINAL DRAFT/Document fonts/Gotham-UltraItalic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:31504
+FileModTime:490656234
+NameArray:0,Mac,4,Gotham-UltraItalic
+NameArray:0,Win,1,Gotham Ultra
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:/Users/candicebutterfield/Desktop/FINAL DRAFT/Document fonts/MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasSBIX:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:218640
+FileModTime:393259715
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
