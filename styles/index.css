@@ -140,7 +140,7 @@ a {
 }
 
 .big-image {
-  height: 100%;
+  min-height: 100%;
   width: 100%;
   /* overflow: hidden;
   object-fit: cover; */
@@ -199,7 +199,7 @@ footer {
   margin: auto;
   max-width: 45ch;
   text-align: center;
-  color: var(--light-blue);
+  color: white;
   font-family: 'Open Sans Variable Font', sans-serif;
   font-size: 1.65rem;
   font-weight: 700;
