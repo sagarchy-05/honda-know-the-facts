@@ -191,6 +191,7 @@ a {
 
 footer {
   width: 100%;
+  margin-top: 1.5rem;
 }
 
 .footer-top {
@@ -223,7 +224,7 @@ footer {
   align-items: center;
   background-color: white;
   width: fit-content;
-  width: 30%;
+  width: 40%;
 }
 input {
   width: 300px;
@@ -305,6 +306,15 @@ input::after {
   .floating-box button {
     font-size: 1.1rem;
     padding: 0.8em 2em;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .search {
+    width: 150em;
+  }
+  input {
+    width: 500px;
   }
 }
 
