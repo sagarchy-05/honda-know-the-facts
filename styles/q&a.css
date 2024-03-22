@@ -111,7 +111,7 @@
 .all-questions li:nth-child(7) .question,
 .all-questions li:nth-child(8) .question,
 .all-questions li:nth-child(9) .question {
-  padding-bottom: 0.5em;
+  padding-bottom: 0.8em;
 }
 .question {
   display: grid;
