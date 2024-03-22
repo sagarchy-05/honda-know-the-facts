@@ -191,7 +191,6 @@ a {
 
 footer {
   width: 100%;
-  margin-top: 1.5rem;
 }
 
 .footer-top {
@@ -224,7 +223,7 @@ footer {
   align-items: center;
   background-color: white;
   width: fit-content;
-  width: 40%;
+  width: 30%;
 }
 input {
   width: 300px;

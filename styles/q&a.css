@@ -99,10 +99,16 @@
   width: 34ch;
 }
 
-.all-questions li:nth-child(6) .question,
-.all-questions li:nth-child(7) .question,
+.all-questions li:nth-child(6) .question {
+  width: 26ch;
+}
+
 .all-questions li:nth-child(8) .question {
-  width: 30ch;
+  width: 28ch;
+}
+
+.all-questions li:nth-child(7) .question {
+  width: 35ch;
 }
 
 .all-questions li:nth-child(1) .question,
@@ -119,7 +125,7 @@
   text-align: center;
   padding: 0.7rem 0 0.5rem;
 
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 900;
   max-width: 40ch;
 }

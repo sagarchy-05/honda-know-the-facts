@@ -33,6 +33,9 @@
   width: 100%;
   min-height: 60vh;
 }
+.extra-padding {
+  padding-bottom: 5rem !important;
+}
 
 #second-segment .wrapper-union {
   margin: auto;

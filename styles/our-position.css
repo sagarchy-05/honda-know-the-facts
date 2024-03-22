@@ -175,6 +175,7 @@
   margin: auto;
   display: grid;
   place-items: center;
+  padding-bottom: 4em;
 }
 #blue-back-comments-with-person .wrapper {
   margin: auto;
