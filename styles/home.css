@@ -101,7 +101,9 @@
 
 .third-text button {
   background-color: transparent;
-  border: none;
+  padding: 0.9em 1.85em;
+  border: solid 3px var(--cyan);
+  border-radius: 0.75em;
 }
 
 .third-text button a {
@@ -109,11 +111,7 @@
   font-size: 1.2rem;
   font-weight: 900;
   letter-spacing: 1.5px;
-  background-color: transparent;
   color: var(--cyan);
-  border: solid 3px var(--cyan);
-  border-radius: 0.75em;
-  padding: 0.9em 1.85em;
 }
 #fourth-segment {
   display: flex;
@@ -143,7 +141,12 @@
   border-radius: 0.75em;
   padding: 0.8em 1.5em;
 }
-
+#fourth-segment button:hover {
+  background-color: var(--dark-red);
+}
+#fourth-segment button:hover a {
+  color: white;
+}
 .rest-videos {
   max-width: 48%;
   display: flex;

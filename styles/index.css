@@ -259,11 +259,25 @@ input::after {
   max-width: 80%;
 }
 
-button:hover {
-  opacity: 0.9;
-  transform: scale(1.02);
-  transition: 0.3s ease;
-  /* box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2); */
+.floating-box button:hover {
+  background-color: white;
+}
+.floating-box button:hover a {
+  color: var(--cyan);
+}
+#second-segment ul li button:hover {
+  background-color: var(--light-blue);
+}
+.third-text button:hover {
+  background-color: var(--cyan);
+}
+.third-text button:hover a {
+  color: white;
+}
+.search button:hover {
+  background-color: whitesmoke;
+  color: var(--dark-red);
+  font-weight: 600;
 }
 
 @media (max-width: 1070px) {
