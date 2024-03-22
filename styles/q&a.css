@@ -18,37 +18,56 @@
   padding-left: 0.75em;
   padding-right: 0.75em;
 }
+.all-questions li {
+  max-width: 100vw;
+}
+#qna {
+  margin-bottom: 1em;
+}
 .all-questions {
+  width: 100vw;
+  color: var(--dark-red);
+  font-family: 'Open Sans Variable Font', sans-serif;
   display: grid;
+  place-items: center;
   grid-template-columns: 1fr;
-  gap: 1rem;
-  padding: 1rem;
+  gap: 0.5rem;
 }
 .all-questions li:nth-child(2) .full-qna,
 .all-questions li:nth-child(6) .full-qna,
 .all-questions li:nth-child(9) .full-qna {
-  background-color: rgb(234, 211, 202);
+  background-color: #f8e1df;
 }
 
 .all-questions li:nth-child(1) .full-qna,
 .all-questions li:nth-child(5) .full-qna,
 .all-questions li:nth-child(8) .full-qna {
-  background-color: rgb(215, 231, 237);
+  background-color: rgba(62, 174, 213, 0.15);
 }
 
 .all-questions li:nth-child(3) .full-qna,
 .all-questions li:nth-child(7) .full-qna {
-  background-color: rgb(236, 218, 193);
+  background-color: #feefdc;
 }
 
 .all-questions li:nth-child(4) .full-qna {
-  background-color: rgb(243, 224, 238);
+  background-color: #f2e8ef;
+}
+.full-qna {
+  width: 100vw;
+  display: grid;
+  place-items: center;
 }
 
 .question {
+  display: grid;
+  place-items: center;
   text-align: center;
   padding: 0.5rem 0;
-  min-height: 3rem;
+  min-height: 8rem;
+  font-size: 2.5rem;
+  font-weight: 900;
+  max-width: 40ch;
 }
 .question:hover {
   cursor: pointer;
@@ -57,17 +76,29 @@
   display: grid;
   text-align: center;
   grid-template-rows: 0fr;
+  color: var(--black);
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: inherit;
+  max-width: 86ch;
 
-  transition: grid-template-rows 0.5s linear;
+  transition: grid-template-rows 0.25s linear;
 }
 .answer section {
   overflow: hidden;
   color: var(--black);
 }
-
+.answer:nth-of-type(1) section {
+  background-color: white;
+}
 .active-ans .answer {
   grid-template-rows: 1fr;
   overflow: visible;
-  color: white;
-  background-color: inherit;
+  color: var(--black);
+  font-size: 1.1rem;
+  font-weight: 600;
+  /* background-color: inherit; */
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+  max-width: 86ch;
 }
