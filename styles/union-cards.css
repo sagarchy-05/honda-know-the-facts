@@ -82,7 +82,7 @@
   padding-top: 1.5rem;
 }
 .second .first-para {
-  max-width: 47ch;
+  max-width: 50ch;
   font-family: 'Open Sans Variable Font', sans-serif;
   font-size: 1.35rem;
   font-weight: 700;
@@ -114,10 +114,6 @@
   color: white;
   max-width: 20ch;
   min-width: 17ch;
-}
-.second {
-  display: flex;
-  align-items: flex-start !important;
 }
 
 .wrapper div:last-of-type h1 span {
