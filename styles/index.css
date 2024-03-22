@@ -305,6 +305,6 @@ input {
     opacity: 0;
   }
   .opened {
-    background-image: none;
+    background-image: none !important;
   }
 }
