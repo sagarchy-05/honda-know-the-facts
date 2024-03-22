@@ -91,11 +91,14 @@ a {
   /* width: 60%; */
   display: flex;
   /* justify-content: space-around; */
-  gap: 3%;
+  gap: 2%;
   align-items: center;
   padding-top: 1.5em;
 }
-
+.home-nav {
+  display: flex;
+  gap: 3%;
+}
 .nav-item :hover {
   opacity: 0.85;
 }
@@ -119,15 +122,6 @@ a {
   text-align: center;
   padding-left: 1em;
 }
-
-/* .nav-link {
-  white-space: nowrap;
-  transition: 0.7s ease;
-}
-
-.nav-link a:hover {
-  color: black;
-} */
 
 .hamburger {
   display: none;
@@ -159,7 +153,7 @@ a {
 .floating-box {
   z-index: 5;
   position: absolute;
-  left: 6%;
+  left: 5%;
   top: 200px;
   display: flex;
   flex-direction: column;
@@ -291,13 +285,19 @@ input::after {
   font-weight: 600;
 }
 
-@media screen and (max-width: 1325px) {
+@media screen and (max-width: 1400px) {
+  .navbar {
+    width: 97vw;
+  }
+  .nav-menu {
+    gap: 1.5%;
+  }
   .floating-box {
-    top: 150px;
-    left: 3%;
+    top: 180px;
+    left: 7%;
   }
   .floating-box h1 {
-    font-size: 3.5rem;
+    font-size: 3.35rem;
   }
   .floating-box h2 {
     font-size: 1.3rem;

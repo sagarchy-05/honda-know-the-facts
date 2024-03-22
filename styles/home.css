@@ -159,9 +159,15 @@
   max-width: 10%;
 }
 .opened {
-  width: 330px;
+  width: 285px;
 }
 .my-honda-text h1 {
   font-size: 3.2rem;
   margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1440px) {
+  .floating-box h1 {
+    max-width: 16ch;
+  }
 }

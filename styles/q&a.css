@@ -12,7 +12,7 @@
 }
 .opened {
   background-image: url('../assets/new/q-n-a-back.png');
-  max-width: 205px;
+  max-width: 170px;
   background-size: contain;
   background-position: center;
   padding-block: 1em;

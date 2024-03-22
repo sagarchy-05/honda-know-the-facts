@@ -11,7 +11,7 @@
   --yellow: #f6a732;
 }
 .opened {
-  width: 300px;
+  width: 260px;
 }
 
 #second-segment {
@@ -53,7 +53,7 @@
   width: 100%;
 }
 .heading hr {
-  width: 35ch;
+  width: 31ch;
   height: 2.5px;
   background-color: var(--dark-red);
   overflow: hidden;
