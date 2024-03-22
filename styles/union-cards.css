@@ -115,6 +115,10 @@
   max-width: 20ch;
   min-width: 17ch;
 }
+.second {
+  display: flex;
+  align-items: flex-start !important;
+}
 
 .wrapper div:last-of-type h1 span {
   margin: auto;
