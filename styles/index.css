@@ -13,6 +13,14 @@
 }
 
 @font-face {
+  font-family: 'Montserrat Black Italic';
+  src: url('../fonts/FontsFree-Net-Montserrat-BlackItalic.ttf')
+    format('truetype'); /* OTF format */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Open Sans Italic';
   src: url('../fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf')
     format('truetype'); /* TTF format */
@@ -65,9 +73,12 @@ a {
   color: white;
   text-decoration: none;
 }
+.nav-item a {
+  font-family: 'Montserrat Black Italic', sans-serif;
+}
 
 .navbar {
-  width: 90vw;
+  width: 92vw;
   margin: auto;
   min-height: 70px;
   display: flex;
@@ -80,7 +91,7 @@ a {
   /* width: 60%; */
   display: flex;
   /* justify-content: space-around; */
-  gap: 4%;
+  gap: 3.5%;
   align-items: center;
   padding-top: 1.5em;
 }
@@ -278,6 +289,23 @@ input::after {
   background-color: whitesmoke;
   color: var(--dark-red);
   font-weight: 600;
+}
+
+@media screen and (max-width: 1325px) {
+  .floating-box {
+    top: 150px;
+    left: 3%;
+  }
+  .floating-box h1 {
+    font-size: 3.5rem;
+  }
+  .floating-box h2 {
+    font-size: 1.3rem;
+  }
+  .floating-box button {
+    font-size: 1.1rem;
+    padding: 0.8em 2em;
+  }
 }
 
 @media (max-width: 1070px) {
