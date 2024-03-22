@@ -150,9 +150,6 @@
 #second-segment .wrapper-union {
   gap: 5em;
 }
-#blue-back-comments {
-  background-color: var(--dard-blue);
-}
 .text-like {
   font-family: 'Open Sans Variable Font', sans-serif;
   font-size: 2rem;
@@ -161,6 +158,8 @@
   line-height: 1.5;
 }
 .text-like span {
+  text-align: center;
+  white-space: nowrap;
   font-size: 2rem;
   font-weight: 900;
 }
