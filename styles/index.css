@@ -78,7 +78,7 @@ a {
 }
 
 .navbar {
-  width: 92vw;
+  width: 90vw;
   margin: auto;
   min-height: 70px;
   display: flex;
@@ -91,7 +91,7 @@ a {
   /* width: 60%; */
   display: flex;
   /* justify-content: space-around; */
-  gap: 3.5%;
+  gap: 3%;
   align-items: center;
   padding-top: 1.5em;
 }
