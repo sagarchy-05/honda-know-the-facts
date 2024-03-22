@@ -10,3 +10,145 @@
   --violet: #984b84;
   --yellow: #f6a732;
 }
+
+#second-segment {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(152, 75, 132, 1) 100%
+  );
+  min-height: 60vh;
+}
+
+#second-segment-with-image {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  min-height: 60vh;
+}
+
+#second-segment .wrapper-union,
+#second-segment-with-image .wrapper {
+  margin: auto;
+  max-width: 80%;
+  padding-block: 2.5em;
+  display: flex;
+  /* justify-content: space-between; */
+  align-self: center;
+  gap: 1em;
+}
+.heading {
+  font-family: 'Open Sans Variable Font', sans-serif;
+  font-size: 1.7rem;
+  font-weight: 800;
+  color: var(--dark-red);
+  margin-bottom: 1em;
+  width: 100%;
+}
+.heading hr {
+  width: 35ch;
+  height: 2.5px;
+  background-color: var(--dark-red);
+  overflow: hidden;
+  border: none;
+}
+.wrapper div .text {
+  max-width: 45ch;
+  font-family: 'Open Sans Variable Font', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: black;
+  line-height: 1.5;
+}
+.wrapper div .text img {
+  margin-top: 1rem;
+  width: 100%;
+  object-fit: cover;
+}
+.wrapper .first {
+  padding-top: 1.5rem;
+}
+.second .first-para {
+  max-width: 47ch;
+  font-family: 'Open Sans Variable Font', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--black);
+  margin-bottom: 2rem;
+}
+.second .first-para span {
+  font-weight: 900;
+}
+.second .second-para {
+  max-width: 38ch;
+  font-family: 'Open Sans Variable Font', sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--dark-red);
+}
+.wrapper .second,
+.wrapper-union .second {
+  min-width: 50%;
+}
+.wrapper .first {
+  width: 100%;
+}
+.wrapper .second h1 {
+  text-align: center;
+  font-family: 'Gotham Ultra Italic', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+  max-width: 20ch;
+  min-width: 17ch;
+}
+
+.wrapper div:last-of-type h1 span {
+  margin: auto;
+  text-align: center;
+  max-width: 10ch;
+  display: block;
+}
+.wrapper-union .first .text {
+  font-family: 'OPen Sans Variable Font', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 42ch;
+}
+
+.wrapper-union .first .text span {
+  font-weight: 900;
+}
+.wrapper-union .first .heading hr {
+  width: 36ch;
+}
+.wrapper-union .second {
+  font-family: 'Gotham Ultra Italic', sans-serif;
+  display: grid;
+  place-items: center;
+  width: 20ch;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+}
+#second-segment .wrapper-union {
+  gap: 5em;
+}
+#blue-back-comments {
+  background-color: var(--dard-blue);
+}
+.text-like {
+  font-family: 'Open Sans Variable Font', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  line-height: 1.5;
+}
+.text-like span {
+  font-size: 2rem;
+  font-weight: 900;
+}

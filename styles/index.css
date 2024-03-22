@@ -136,7 +136,7 @@ a {
 
 #top-segment {
   position: relative;
-  min-height: 100vh;
+  min-height: fit-content;
 }
 
 .big-image {
