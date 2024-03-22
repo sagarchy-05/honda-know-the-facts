@@ -58,7 +58,7 @@
 .wrapper div .text {
   max-width: 80ch;
   font-family: 'Open Sans Variable Font', sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 600;
   color: black;
   line-height: 1.2;
@@ -121,7 +121,7 @@
   align-items: center;
   width: 70%;
 
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: var(--black);
   font-weight: 100;
   gap: 2.5em;

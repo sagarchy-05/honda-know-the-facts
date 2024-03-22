@@ -87,7 +87,7 @@
 .second .first-para {
   max-width: 50ch;
   font-family: 'Open Sans Variable Font', sans-serif;
-  font-size: 1.35rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: var(--black);
   margin-bottom: 2rem;
@@ -98,7 +98,7 @@
 .second .second-para {
   max-width: 38ch;
   font-family: 'Open Sans Variable Font', sans-serif;
-  font-size: 1.9rem;
+  font-size: 1.6rem;
   font-weight: 900;
   color: var(--dark-red);
 }
@@ -112,7 +112,7 @@
 .wrapper .second h1 {
   text-align: center;
   font-family: 'Gotham Ultra Italic', sans-serif;
-  font-size: 3rem;
+  font-size: 2.75rem;
   font-weight: 900;
   color: white;
   max-width: 20ch;
@@ -127,7 +127,7 @@
 }
 .wrapper-union .first .text {
   font-family: 'OPen Sans Variable Font', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 600;
   width: 42ch;
 }
