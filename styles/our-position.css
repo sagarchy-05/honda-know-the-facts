@@ -11,6 +11,10 @@
   --yellow: #f6a732;
 }
 
+.opened {
+  width: 340px;
+}
+
 #second-segment {
   display: grid;
   place-items: center;
