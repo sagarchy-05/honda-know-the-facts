@@ -10,6 +10,9 @@
   --violet: #984b84;
   --yellow: #f6a732;
 }
+.opened {
+  width: 300px;
+}
 
 #second-segment {
   display: grid;
