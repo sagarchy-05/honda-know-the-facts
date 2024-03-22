@@ -23,7 +23,6 @@
 @font-face {
   font-family: 'Open Sans Variable Font';
   src: url('../fonts/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype'); /* TTF format */
-  /* font-weight: normal; */
   font-style: normal;
 }
 
@@ -201,7 +200,7 @@ footer {
   text-align: center;
   color: white;
   font-family: 'Open Sans Variable Font', sans-serif;
-  font-size: 1.65rem;
+  font-size: 1.75rem;
   font-weight: 700;
 }
 .search {
@@ -214,29 +213,37 @@ footer {
 }
 .inp {
   padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: white;
   width: fit-content;
-  border-radius: 0.75em;
+  width: 30%;
 }
 input {
-  width: 250px;
+  width: 300px;
   border: none;
   padding: 0.5rem;
 }
-.input:active,
-.input::after {
+input::placeholder {
+  font-size: 1.1rem;
+}
+input:active,
+input::after {
   border: none;
 }
 .inp img {
-  max-width: 1em;
+  max-width: 1.5em;
+  margin-right: 1em;
 }
 .search button {
   color: white;
   background-color: var(--dark-red);
   border: none;
-  border-radius: 0.75em;
+  font-size: 1.1em;
   padding: 1em 2em;
   cursor: pointer;
+  width: 10%;
 }
 .footer-bottom {
   background-color: var(--dark-red);
@@ -247,9 +254,16 @@ input {
   margin: auto;
   text-align: center;
   font-family: 'Open Sans Variable Font', sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 400;
-  max-width: 70%;
+  max-width: 80%;
+}
+
+button:hover {
+  opacity: 0.9;
+  transform: scale(1.02);
+  transition: 0.3s ease;
+  /* box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2); */
 }
 
 @media (max-width: 1070px) {
